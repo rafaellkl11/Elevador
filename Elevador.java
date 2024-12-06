@@ -11,9 +11,6 @@ public class Elevador
     private boolean porta;
     private boolean direção;
     private Piso pisoAtual;
-    private int totalAndares;
-    private String marcador;
-    private int andar;
 
     /**
      * Construtor para objetos da classe Elevador
@@ -24,7 +21,6 @@ public class Elevador
         pisoAtual = primeiroPiso;
         porta = false;
         direção = true;
-        totalAndares = total;
     }
 
     /**
